@@ -7,4 +7,13 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="ConsoleAppFramework" Version="5.5.0">
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        <PrivateAssets>all</PrivateAssets>
+      </PackageReference>
+      <PackageReference Include="ConsoleAppFramework.Abstractions" Version="5.5.0" />
+      <PackageReference Include="Spectre.Console" Version="0.50.0" />
+    </ItemGroup>
+
 </Project>
